@@ -12,6 +12,10 @@ git commit -am "   message"
 git commit    - when git editor is configured
 git commit --amend
 
+ To Delete the first commit- 
+
+---    git update-ref -d HEAD
+
 Status -
 
 git status
