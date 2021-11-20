@@ -1,4 +1,5 @@
-Configuring The Editor - 
+Configuring The Editor -    
+ 
 
 git config --system core.editor <editor>
 
@@ -98,6 +99,9 @@ git revert <commit-hash> --no-commit
 Rebasing- 
 git rebase <branch-name>
 git rebase -i HEAD or relative head
+git rebase master --interactive      
+git commit --fixup or --squash <COMMIT-HASH>
+then use the command git rebase -i autosquash or autofixup
 -reword 
 -squash
 -fixup
@@ -120,10 +124,15 @@ git checkout <tag-name>
 
 Custom Aliases - 
 
+  The custom commands 
+
 git config --global.alias 'command name'
+
 or 
+
 by git config file 
 
+[aliases]
 cm = commit -m
 
 Git reflogs -
