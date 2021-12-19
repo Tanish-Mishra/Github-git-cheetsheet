@@ -221,7 +221,7 @@ git clean -n -d then use command 'clean' - It list all the files and directories
 git clean -f          - No need to use clean it removes all the files inside the directory it does'nt remove the directory  
 git clean -f -d         - Same as above but it removes all files and directories .
                           R stands for Recursive and F stands for the force
-
+git clean -f -x      -it removes the ignored files and non - ignored files as well like .gitignore 
 Git collabrative workflow-
 
 Centalized workflow -
