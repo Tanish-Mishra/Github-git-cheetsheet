@@ -115,7 +115,7 @@ git tags -
 git tag 
 git show <tag-name>
 git tag <tag-name>
-git tag -a <tag-name>
+git tag -a <tag-name> -m ""   my tag this one "
 git tag -d <tag-name>
 git tag -l '*beta*'>
 git tag <tag-name> <commit-hash>
