@@ -65,7 +65,9 @@ git diff <commit-hash> <commit-hash 2 >
 git diff <commit-hash>..<commit-hash 2> 
 git diff branch1..branch2 <file-name> <file-name>
 git diff <commit-hash>..<branch-name> <file> <file>
-git show <commit-hash> - it show the changes in the commit hash....................
+git show <commit-hash> - It shows the changes made to the latest commit in simple words it shows the changes with with resepect to the commit you entered and the last latest which commit was made it does not compares with the working directory and the commit 
+for example - HEAD WITH THE HEAD ~1
+in head one like file had a change "   Tanish "   and the HEAD~1 "   Mishra ji"   the it will show  --Mishra ji and ++Tanish 
 
 Git Stashing -
 git stash save
